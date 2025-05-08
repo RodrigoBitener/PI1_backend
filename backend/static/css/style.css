@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 0 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #333;
+    margin: 0;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+}
+
+.search-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.search-box select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    min-width: 180px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    min-width: 250px;
+}
+
+.search-box button {
+    padding: 12px 25px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.search-box button:hover {
+    background-color: #ffcc00;
+}
+
+.btn-limpar {
+    background-color: #6c757d !important;
+}
+
+.btn-limpar:hover {
+    background-color: #5a6268 !important;
+}
+
+.results-container {
+    margin-top: 20px;
+    min-height: 200px;
+}
+
+.placeholder-text {
+    color: #6c757d;
+    text-align: center;
+    font-style: italic;
+    padding: 40px 0;
+}
+
+.error-message {
+    color: #dc3545;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.atividade {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.atividade h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.atividade p {
+    margin: 8px 0;
+}
+
+.no-results {
+    color: #6c757d;
+    text-align: center;
+    font-style: italic;
+    padding: 30px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.search-box select {
+    min-width: 180px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.atividade h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.atividade p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.no-results {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    padding: 30px;
+}
+
+.resultados-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.atividade-card {
+    flex: 1 1 300px;
+    max-width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.atividade-card h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.atividade-card p {
+    margin: 8px 0;
+    font-size: 0.9em;
+}
+
+.no-results {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .atividade-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
